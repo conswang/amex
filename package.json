@@ -1,0 +1,26 @@
+{
+  "name": "amex",
+  "version": "1.0.0",
+  "description": "log into american express and profit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/conswang/amex.git"
+  },
+  "keywords": [
+    "profit"
+  ],
+  "author": "conswang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/conswang/amex/issues"
+  },
+  "homepage": "https://github.com/conswang/amex#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "puppeteer": "^21.4.1"
+  }
+}
