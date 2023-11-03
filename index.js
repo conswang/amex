@@ -4,8 +4,8 @@ require("dotenv").config();
 const LOGIN_URL = "https://www.americanexpress.com/en-us/account/login/";
 const REWARDS_URL = "https://global.americanexpress.com/offers/eligible";
 
-const USERNAME = process.env.USERNAME;
-const PASSWORD = process.env.PASSWORD;
+const USERNAME = process.env.AMEX_USERNAME;
+const PASSWORD = process.env.AMEX_PASSWORD;
 
 const OFFER_BUTTON_X_PATH =
   "//button[contains(@class, 'offer-cta') and @title='Add to Card']";
